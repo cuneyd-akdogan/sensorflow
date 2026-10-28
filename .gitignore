@@ -1,0 +1,101 @@
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editors and IDEs
+*.swp
+*.swo
+*~
+.history/
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.fleet/
+.atom/
+.cursor/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.class
+*.pyc
+.buildlog/
+.build/
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+**/build/
+/coverage/
+**/doc/api/
+*.g.dart.incremental
+app.*.symbols
+app.*.map.json
+
+# Android
+/android/.gradle/
+/android/captures/
+/android/local.properties
+/android/app/debug/
+/android/app/profile/
+/android/app/release/
+/android/app/.cxx/
+**/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+*.apk
+*.aab
+*.ap_
+*.dex
+*.hprof
+
+# iOS / macOS
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/ephemeral/
+**/ios/Pods/
+**/ios/.symlinks/
+**/xcuserdata/
+**/DerivedData/
+
+# Signing and secrets
+key.properties
+**/*.keystore
+**/*.jks
+*.p12
+*.p8
+*.mobileprovision
+.env
+.env.*
+google-services.json
+GoogleService-Info.plist
+
+# Recorded data (keep datasets out of the repository)
+*.mp4
+*.mov
+*.csv
+/dataset/
+/datasets/
+/recordings/
+
+# Local backups
+/backup/
